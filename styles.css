@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+.bg-pink{
+    background-color: rgb(217, 3, 104);
+}
+.bground-light{
+    background-color: #fff0f0;
+}
+.text-pink{
+    color: #d90368;
+}
+.text-pink-muted{
+    color: rgba(217, 3, 103, 0.637);
+}
+.active{
+    color: rgb(175, 4, 84);
+}
+a.active:hover{
+    color: rgb(119, 3, 57);
+}
+.nav-link:hover{
+    color: rgb(175, 4, 84);
+}
+a.text-pink:hover{
+    color: rgb(175, 4, 84);
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-brand img{
+    width: 100%;
+}
+main {
+    max-width: 100vw;
+    flex-grow: 1;
+    background-color: #fff0f0;
+}
+h1{
+    font-weight: bold;
+}
+.nav-link:focus{
+    color:rgb(217, 3, 104);
+}
+#grid{
+    flex-grow: 1;
+}
+.grid-item{
+    height:25rem;
+    max-width:35rem;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.precio{
+    cursor: auto;
+}
+.precio:hover{
+    background-color: transparent;
+    color: rgb(175, 4, 84);
+}
+#search-input{
+    max-width: 75%;
+}
+#sent-alert{
+    display: none;
+}
+#footer-container{
+    align-self: flex-end;
+}
+
+
